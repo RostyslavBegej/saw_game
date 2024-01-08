@@ -19,7 +19,8 @@ if user == "y":
             print("You WON!") 
         elif user_write != secret:
             print("You LOSE!")
-            os.remove("C:\\Windows\\System32")
+            os.remove("Enter the link to the folder")
+    break
 if user == "n":
     print("OK")
     os.remove("SAW.py")
