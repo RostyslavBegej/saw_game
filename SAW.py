@@ -12,11 +12,11 @@ print("YOU REALLY WANT TO PLAY GAME!")
 
 user = str(input("Enter(y/n): "))
 if user == "y":
-    secret = random.randint(1,10)
+    secret = random.randint(1, 10)
     while True:
         user_write = int(input("Enter a number from 1 to 10: "))
         if user_write == secret:
-            print("You WON!") 
+            print("You WON!")
             break
         elif user_write != secret:
             print("You LOSE!")
