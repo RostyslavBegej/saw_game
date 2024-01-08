@@ -17,12 +17,12 @@ if user == "y":
         user_write = int(input("Enter a number from 1 to 10: "))
         if user_write == secret:
             print("You WON!") 
+            break
         elif user_write != secret:
             print("You LOSE!")
             os.remove("Enter the link to the folder")
-    break
+            break
+
 if user == "n":
     print("OK")
-    os.remove("SAW.py")
-
-
+    os.remove("saw.py")
